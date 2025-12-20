@@ -4,7 +4,7 @@ class Inngest < Formula
   url "https://github.com/inngest/inngest.git",
       tag:      "v1.15.1",
       revision: "196512c9bca5fa8a77e4ea78446094a975096bac"
-  license "See https://github.com/inngest/inngest/blob/main/LICENSE.md"
+  license :cannot_represent # See https://github.com/inngest/inngest/blob/main/LICENSE.md
   head "https://github.com/inngest/inngest.git", branch: "main" # brew install --build-from-source --formula inngest/tap/inngest --HEAD
 
   depends_on "go" => :build
