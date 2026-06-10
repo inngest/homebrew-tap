@@ -1,11 +1,11 @@
-class Inngest < Formula
+class InngestSource < Formula
   desc "Inngest CLI and development server"
   homepage "https://www.inngest.com/"
   url "https://github.com/inngest/inngest.git",
       tag:      "v1.15.1",
       revision: "196512c9bca5fa8a77e4ea78446094a975096bac"
   license :cannot_represent # See https://github.com/inngest/inngest/blob/main/LICENSE.md
-  head "https://github.com/inngest/inngest.git", branch: "main" # brew install --build-from-source --formula inngest/tap/inngest --HEAD
+  head "https://github.com/inngest/inngest.git", branch: "main" # brew install --build-from-source inngest/tap/inngest-source --HEAD
 
   depends_on "go" => :build
   depends_on "node" => :build

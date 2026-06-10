@@ -1,15 +1,20 @@
 # homebrew-tap
 
-Either
+Install the prebuilt Inngest CLI from cask (recommended):
 
 ```
 brew install inngest/tap/inngest
 ```
 
+or
 
 ```
 brew tap inngest/tap
 brew install inngest
 ```
 
-You can also pass in `--formula` or `--cask`. `--formula` is used by default.
+To build from source instead:
+
+```
+brew install inngest/tap/inngest-source
+```
