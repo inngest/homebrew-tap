@@ -2,8 +2,8 @@ class InngestSource < Formula
   desc "Inngest CLI and development server"
   homepage "https://www.inngest.com/"
   url "https://github.com/inngest/inngest.git",
-      tag:      "v1.15.1",
-      revision: "196512c9bca5fa8a77e4ea78446094a975096bac"
+      tag:      "v1.27.0",
+      revision: "781c91d3c5c21852e84ee575d6d36b1ad9dcde1a"
   license :cannot_represent # See https://github.com/inngest/inngest/blob/main/LICENSE.md
   head "https://github.com/inngest/inngest.git", branch: "main" # brew install --build-from-source inngest/tap/inngest-source --HEAD
 
